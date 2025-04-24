@@ -2,9 +2,9 @@ import type { Metadata } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'v0 App',
-  description: 'Created with v0',
-  generator: 'v0.dev',
+  title: 'File Bridge Global',
+  description: 'File Bridge Global is a premium tax consultation and financial services company that connects individuals and businesses to smarter, streamlined solutions',
+  generator: 'File Bridge Global',
 }
 
 export default function RootLayout({
