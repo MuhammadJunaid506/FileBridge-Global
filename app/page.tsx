@@ -279,10 +279,10 @@ export default function LandingPage() {
               <div className="flex items-center justify-center animate-in slide-in-from-right duration-700">
                 <div className="relative w-full h-[300px] md:h-[400px] lg:h-[500px]">
                   <Image
-                    src="/placeholder.svg?height=500&width=600"
+                    src="/images/hero.webp"
                     alt="Tax Consultation Services"
                     fill
-                    className="object-contain drop-shadow-2xl"
+                    className="drop-shadow-2xl w-full h-full"
                     priority
                   />
                 </div>
@@ -494,7 +494,7 @@ export default function LandingPage() {
                 <div className="grid md:grid-cols-2 gap-6">
                   <div className="rounded-lg overflow-hidden">
                     <Image
-                      src="/placeholder.svg?height=400&width=600"
+                      src="/images/international.webp"
                       alt="International Tax Services"
                       width={600}
                       height={400}
@@ -533,7 +533,7 @@ export default function LandingPage() {
                 <div className="grid md:grid-cols-2 gap-6">
                   <div className="rounded-lg overflow-hidden">
                     <Image
-                      src="/placeholder.svg?height=400&width=600"
+                      src="/images/planning.webp"
                       alt="Tax Planning Services"
                       width={600}
                       height={400}
@@ -572,7 +572,7 @@ export default function LandingPage() {
                 <div className="grid md:grid-cols-2 gap-6">
                   <div className="rounded-lg overflow-hidden">
                     <Image
-                      src="/placeholder.svg?height=400&width=600"
+                      src="/images/compliance.webp"
                       alt="Tax Compliance Services"
                       width={600}
                       height={400}
@@ -582,27 +582,27 @@ export default function LandingPage() {
                   <div className="flex flex-col justify-center space-y-4">
                     <h3 className="text-2xl font-bold text-[#2b3842]">Tax Compliance Services</h3>
                     <p className="text-[#58686f]">
-                      Ensure full compliance with all applicable tax laws and regulations to avoid penalties and audits.
+                        Ensure your business remains fully compliant with ever-changing tax regulations across jurisdictions. Our comprehensive compliance services reduce the risk of penalties, support accurate reporting, and keep you audit-ready.
                     </p>
                     <ul className="space-y-2">
                       <li className="flex items-start gap-2">
                         <CheckCircle className="h-5 w-5 text-[#2b3842] mt-0.5 flex-shrink-0" />
-                        <span>Tax return preparation and filing</span>
+                        <span>Tax return preparation and filing Timely and accurate preparation of federal, state, and local tax returns for businesses and individuals</span>
                       </li>
                       <li className="flex items-start gap-2">
                         <CheckCircle className="h-5 w-5 text-[#2b3842] mt-0.5 flex-shrink-0" />
-                        <span>Sales tax compliance</span>
+                        <span>Sales tax compliance Ongoing support to ensure accurate payroll tax calculations, filings, and payments to tax authorities.</span>
                       </li>
                       <li className="flex items-start gap-2">
                         <CheckCircle className="h-5 w-5 text-[#2b3842] mt-0.5 flex-shrink-0" />
-                        <span>Payroll tax compliance</span>
+                        <span>Payroll tax compliance Ongoing support to ensure accurate payroll tax calculations, filings, and payments to tax authorities.</span>
                       </li>
                       <li className="flex items-start gap-2">
                         <CheckCircle className="h-5 w-5 text-[#2b3842] mt-0.5 flex-shrink-0" />
-                        <span>Regulatory reporting requirements</span>
+                        <span>Regulatory reporting requirements Assistance with statutory reporting requirements, including information returns, foreign disclosures, and industry-specific compliance obligation</span>
                       </li>
                     </ul>
-                    <Button className="bg-[#2b3842] hover:bg-[#404f58] text-white w-fit">Learn More</Button>
+                    {/* <Button className="bg-[#2b3842] hover:bg-[#404f58] text-white w-fit">Learn More</Button> */}
                   </div>
                 </div>
               </TabsContent>
@@ -611,7 +611,7 @@ export default function LandingPage() {
                 <div className="grid md:grid-cols-2 gap-6">
                   <div className="rounded-lg overflow-hidden">
                     <Image
-                      src="/placeholder.svg?height=400&width=600"
+                      src="/images/taxadvisor.webp"
                       alt="Tax Advisory Services"
                       width={600}
                       height={400}
@@ -621,27 +621,27 @@ export default function LandingPage() {
                   <div className="flex flex-col justify-center space-y-4">
                     <h3 className="text-2xl font-bold text-[#2b3842]">Tax Advisory Services</h3>
                     <p className="text-[#58686f]">
-                      Expert guidance on complex tax matters to help you make informed financial decisions.
+                    Receive expert, strategic guidance on complex tax matters to help you make confident, informed financial decisions. Our tax advisory services are designed to proactively identify risks, resolve disputes, and support long-term tax efficiency
                     </p>
                     <ul className="space-y-2">
                       <li className="flex items-start gap-2">
                         <CheckCircle className="h-5 w-5 text-[#2b3842] mt-0.5 flex-shrink-0" />
-                        <span>Tax controversy resolution</span>
+                        <span>Tax controversy resolution Representation and support in resolving disputes with tax authorities, including negotiation and settlement strategies.</span>
                       </li>
                       <li className="flex items-start gap-2">
                         <CheckCircle className="h-5 w-5 text-[#2b3842] mt-0.5 flex-shrink-0" />
-                        <span>IRS audit representation</span>
+                        <span>IRS audit representation End-to-end representation during IRS audits, including document preparation, issue resolution, and communication with tax agents.</span>
                       </li>
                       <li className="flex items-start gap-2">
                         <CheckCircle className="h-5 w-5 text-[#2b3842] mt-0.5 flex-shrink-0" />
-                        <span>Tax opinion letters</span>
+                        <span>Tax opinion letters Formal written guidance on complex tax positions to support compliance and mitigate risk in transactions.</span>
                       </li>
                       <li className="flex items-start gap-2">
                         <CheckCircle className="h-5 w-5 text-[#2b3842] mt-0.5 flex-shrink-0" />
-                        <span>Strategic tax consulting</span>
+                        <span>Strategic tax consulting Customized advice on tax-efficient structures, transactions, and planning opportunities aligned with your business goals.</span>
                       </li>
                     </ul>
-                    <Button className="bg-[#2b3842] hover:bg-[#404f58] text-white w-fit">Learn More</Button>
+                    {/* <Button className="bg-[#2b3842] hover:bg-[#404f58] text-white w-fit">Learn More</Button> */}
                   </div>
                 </div>
               </TabsContent>
@@ -1049,3 +1049,19 @@ export default function LandingPage() {
     </div>
   )
 }
+
+// export default function LandingPage() {
+//   let arr = ["d", "f", "t", "g"];
+//   const [state, setState] = useState('d')
+//   // let state = "d";
+//   return (
+//     <div className=" py-12 md:py-24 lg:py-32 bg-[#f8fafa] flex justify-evenly w-full">
+//       {arr.map((item) => {
+//         return (
+//         <div className={state === item ? "bg-slate-400 cursor-pointer p-3" : "bg_color cursor-pointer"} onClick={() => setState(item)}>
+//             <p>{item}</p>
+//         </div>)
+//       })}
+//     </div>
+//   );
+// };
