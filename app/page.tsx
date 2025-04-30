@@ -249,12 +249,12 @@ export default function LandingPage() {
             <div className="grid gap-6 lg:grid-cols-[1fr_400px] lg:gap-12 xl:grid-cols-[1fr_600px]">
               <div className="flex flex-col justify-center space-y-4 animate-in slide-in-from-left duration-700">
                 <div className="space-y-2">
-                  <Badge className="bg-white/20 text-white hover:bg-white/30 mb-4">World-Class Tax Expertise</Badge>
+                  <Badge className="bg-white/20 text-white hover:bg-white/30 mb-4">Welcome to File Bridge Global – Your Trusted Tax & Business Advisory Partner in Pakistan</Badge>
                   <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none text-white">
-                    Bridge Global Tax Consultation
+                    Empowering Individuals, Startups, and Enterprises with Expert Tax Solutions
                   </h1>
                   <p className="max-w-[600px] text-[#dce8e6] md:text-xl">
-                    World-Class Tax Expertise for Individuals, Startups & Enterprises.
+                  At File Bridge Global, we understand that navigating the complexities of taxation and business regulations can be daunting. Whether you're an individual, a startup, or an established enterprise, we're here to simplify the process and guide you every step of the way.
                   </p>
                 </div>
                 <div className="flex flex-col gap-2 min-[400px]:flex-row">
@@ -397,7 +397,7 @@ export default function LandingPage() {
                   Comprehensive Tax Solutions
                 </h2>
                 <p className="max-w-[900px] text-[#58686f] md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  We offer a wide range of tax services to meet all your financial needs.
+                we provide a full spectrum of tax services tailored to meet the diverse needs of individuals and businesses in Pakistan. Our expert team ensures compliance with local regulations while optimizing your tax position.
                 </p>
               </div>
             </div>
@@ -416,7 +416,7 @@ export default function LandingPage() {
                 <div className="grid md:grid-cols-2 gap-6">
                   <div className="rounded-lg overflow-hidden">
                     <Image
-                      src="/placeholder.svg?height=400&width=600"
+                      src="/images/individual.webp"
                       alt="Individual Tax Services"
                       width={600}
                       height={400}
@@ -426,28 +426,27 @@ export default function LandingPage() {
                   <div className="flex flex-col justify-center space-y-4">
                     <h3 className="text-2xl font-bold text-[#2b3842]">Individual Tax Services</h3>
                     <p className="text-[#58686f]">
-                      Our individual tax services are designed to minimize your tax burden while ensuring full
-                      compliance with all tax laws and regulations.
+                    Our individual tax services are designed to minimize your tax burden while ensuring full compliance with all tax laws and regulations in Pakistan
                     </p>
                     <ul className="space-y-2">
                       <li className="flex items-start gap-2">
                         <CheckCircle className="h-5 w-5 text-[#2b3842] mt-0.5 flex-shrink-0" />
-                        <span>Personal income tax preparation and filing</span>
+                        <span> <p className="font-semibold">Personal income tax preparation and filing: </p>Accurate and timely filing of individual income tax returns with the Federal Board of Revenue (FBR)</span>
                       </li>
                       <li className="flex items-start gap-2">
                         <CheckCircle className="h-5 w-5 text-[#2b3842] mt-0.5 flex-shrink-0" />
-                        <span>Tax planning and optimization strategies</span>
+                        <span><p className="font-semibold">Tax planning and optimization strategies: </p>Developing personalized strategies to minimize tax liabilities and maximize eligible deductions and credits</span>
                       </li>
                       <li className="flex items-start gap-2">
                         <CheckCircle className="h-5 w-5 text-[#2b3842] mt-0.5 flex-shrink-0" />
-                        <span>Retirement and estate tax planning</span>
+                        <span><p className="font-semibold">Retirement and estate tax planning: </p>Guidance on structuring retirement plans and estate transfers to minimize tax implications</span>
                       </li>
                       <li className="flex items-start gap-2">
                         <CheckCircle className="h-5 w-5 text-[#2b3842] mt-0.5 flex-shrink-0" />
-                        <span>Investment and capital gains tax strategies</span>
+                        <span><p className="font-semibold">Investment and capital gains tax strategies:</p>Advising on tax-efficient investment options and strategies to manage capital gains taxes.</span>
                       </li>
                     </ul>
-                    <Button className="bg-[#2b3842] hover:bg-[#404f58] text-white w-fit">Learn More</Button>
+                    {/* <Button className="bg-[#2b3842] hover:bg-[#404f58] text-white w-fit">Learn More</Button> */}
                   </div>
                 </div>
               </TabsContent>
@@ -456,7 +455,7 @@ export default function LandingPage() {
                 <div className="grid md:grid-cols-2 gap-6">
                   <div className="rounded-lg overflow-hidden">
                     <Image
-                      src="/placeholder.svg?height=400&width=600"
+                      src="/images/business.webp"
                       alt="Business Tax Services"
                       width={600}
                       height={400}
@@ -466,16 +465,16 @@ export default function LandingPage() {
                   <div className="flex flex-col justify-center space-y-4">
                     <h3 className="text-2xl font-bold text-[#2b3842]">Business Tax Services</h3>
                     <p className="text-[#58686f]">
-                      Comprehensive tax solutions for businesses of all sizes, from startups to established enterprises.
+                    Our business tax services are tailored to help companies navigate the complexities of corporate taxation in Pakistan
                     </p>
                     <ul className="space-y-2">
                       <li className="flex items-start gap-2">
                         <CheckCircle className="h-5 w-5 text-[#2b3842] mt-0.5 flex-shrink-0" />
-                        <span>Corporate and partnership tax preparation</span>
+                        <span>Corporate Tax Filing and Compliance: Preparation and submission of corporate tax returns in accordance with FBR regulations</span>
                       </li>
                       <li className="flex items-start gap-2">
                         <CheckCircle className="h-5 w-5 text-[#2b3842] mt-0.5 flex-shrink-0" />
-                        <span>Business structure optimization</span>
+                        <span>Tax Planning and Strategy Development: Creating effective tax strategies to optimize business operations and minimize liabilities.</span>
                       </li>
                       <li className="flex items-start gap-2">
                         <CheckCircle className="h-5 w-5 text-[#2b3842] mt-0.5 flex-shrink-0" />
@@ -483,10 +482,10 @@ export default function LandingPage() {
                       </li>
                       <li className="flex items-start gap-2">
                         <CheckCircle className="h-5 w-5 text-[#2b3842] mt-0.5 flex-shrink-0" />
-                        <span>Mergers and acquisitions tax planning</span>
+                        <span>Audit Support and Representation: Assistance during tax audits and representation before tax authorities.</span>
                       </li>
                     </ul>
-                    <Button className="bg-[#2b3842] hover:bg-[#404f58] text-white w-fit">Learn More</Button>
+                    {/* <Button className="bg-[#2b3842] hover:bg-[#404f58] text-white w-fit">Learn More</Button> */}
                   </div>
                 </div>
               </TabsContent>
@@ -505,27 +504,27 @@ export default function LandingPage() {
                   <div className="flex flex-col justify-center space-y-4">
                     <h3 className="text-2xl font-bold text-[#2b3842]">International Tax Services</h3>
                     <p className="text-[#58686f]">
-                      Navigate the complexities of international taxation with our expert guidance and strategies.
+                    For businesses and individuals with cross-border interests, we offer comprehensive international tax services.
                     </p>
                     <ul className="space-y-2">
                       <li className="flex items-start gap-2">
                         <CheckCircle className="h-5 w-5 text-[#2b3842] mt-0.5 flex-shrink-0" />
-                        <span>Cross-border tax planning</span>
+                        <span>Transfer Pricing Advisory: Guidance on setting and documenting transfer prices for intercompany transactions.</span>
                       </li>
                       <li className="flex items-start gap-2">
                         <CheckCircle className="h-5 w-5 text-[#2b3842] mt-0.5 flex-shrink-0" />
-                        <span>Transfer pricing strategies</span>
+                        <span>Double Taxation Agreement (DTA) Consultation: Assistance in understanding and applying provisions of DTAs to avoid double taxation.</span>
                       </li>
                       <li className="flex items-start gap-2">
                         <CheckCircle className="h-5 w-5 text-[#2b3842] mt-0.5 flex-shrink-0" />
-                        <span>Foreign tax credit optimization</span>
+                        <span>Cross-Border Tax Planning: Developing strategies to manage tax implications of international operations and investments.</span>
                       </li>
                       <li className="flex items-start gap-2">
                         <CheckCircle className="h-5 w-5 text-[#2b3842] mt-0.5 flex-shrink-0" />
                         <span>Expatriate tax services</span>
                       </li>
                     </ul>
-                    <Button className="bg-[#2b3842] hover:bg-[#404f58] text-white w-fit">Learn More</Button>
+                    {/* <Button className="bg-[#2b3842] hover:bg-[#404f58] text-white w-fit">Learn More</Button> */}
                   </div>
                 </div>
               </TabsContent>
@@ -544,27 +543,27 @@ export default function LandingPage() {
                   <div className="flex flex-col justify-center space-y-4">
                     <h3 className="text-2xl font-bold text-[#2b3842]">Tax Planning Services</h3>
                     <p className="text-[#58686f]">
-                      Strategic tax planning to minimize liabilities and maximize financial efficiency.
+                    Our tax planning services are designed to help individuals and businesses proactively manage their tax liabilities
                     </p>
                     <ul className="space-y-2">
                       <li className="flex items-start gap-2">
                         <CheckCircle className="h-5 w-5 text-[#2b3842] mt-0.5 flex-shrink-0" />
-                        <span>Proactive tax planning strategies</span>
+                        <span>Our tax planning services are designed to help individuals and businesses proactively manage their tax liabilities</span>
                       </li>
                       <li className="flex items-start gap-2">
                         <CheckCircle className="h-5 w-5 text-[#2b3842] mt-0.5 flex-shrink-0" />
-                        <span>Year-end tax optimization</span>
+                        <span>Capital Gains Tax Planning: Advising on the timing and structuring of asset sales to minimize capital gains taxes</span>
                       </li>
                       <li className="flex items-start gap-2">
                         <CheckCircle className="h-5 w-5 text-[#2b3842] mt-0.5 flex-shrink-0" />
-                        <span>Tax-efficient investment strategies</span>
+                        <span>Retirement and Estate Planning: Planning for tax-efficient retirement and estate transitions.</span>
                       </li>
                       <li className="flex items-start gap-2">
                         <CheckCircle className="h-5 w-5 text-[#2b3842] mt-0.5 flex-shrink-0" />
                         <span>Retirement and succession planning</span>
                       </li>
                     </ul>
-                    <Button className="bg-[#2b3842] hover:bg-[#404f58] text-white w-fit">Learn More</Button>
+                    {/* <Button className="bg-[#2b3842] hover:bg-[#404f58] text-white w-fit">Learn More</Button> */}
                   </div>
                 </div>
               </TabsContent>
