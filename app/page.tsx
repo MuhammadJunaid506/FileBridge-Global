@@ -496,10 +496,16 @@ export default function LandingPage() {
             >
               <TabsList className="grid w-full grid-cols-2 md:grid-cols-3 lg:grid-cols-6 mb-8">
                 <TabsTrigger value="individual">Income Tax</TabsTrigger>
-                <TabsTrigger value="business">Sale Tax</TabsTrigger>
-                <TabsTrigger value="international">Company Reistration</TabsTrigger>
-                <TabsTrigger value="planning">Intellectual Property</TabsTrigger>
-                <TabsTrigger value="compliance">USA LLC & Tax Filling</TabsTrigger>
+                <TabsTrigger value="business">Sales Tax</TabsTrigger>
+                <TabsTrigger value="international">
+                  Company Reistration
+                </TabsTrigger>
+                <TabsTrigger value="planning">
+                  Intellectual Property
+                </TabsTrigger>
+                <TabsTrigger value="compliance">
+                  USA LLC & Tax Filling
+                </TabsTrigger>
                 <TabsTrigger value="advisory">UK PVT LTD</TabsTrigger>
               </TabsList>
 
@@ -519,19 +525,19 @@ export default function LandingPage() {
                   </div>
                   <div className="flex flex-col justify-center space-y-4">
                     <h3 className="text-2xl font-bold text-[#2b3842]">
-                      Individual Tax Services
+                      Income Tax
                     </h3>
                     <p className="text-[#58686f]">
-                      Our individual tax services are designed to minimize your
-                      tax burden while ensuring full compliance with all tax
-                      laws and regulations in Pakistan
+                      Our income tax services are designed to ensure full
+                      compliance with Pakistan’s tax laws while simplifying the
+                      filing process for individuals, businesses, and
+                      organizations.
                     </p>
                     <ul className="space-y-2">
                       <li className="flex items-start gap-2">
                         <CheckCircle className="h-5 w-5 text-[#2b3842] mt-0.5 flex-shrink-0" />
                         <span>
-                           NTN Registration – Salaried
-                          {" "}
+                          NTN Registration – Salaried{" "}
                           {/* <p className="font-semibold">
                             Personal income tax preparation and filing:{" "}
                           </p>
@@ -563,50 +569,38 @@ export default function LandingPage() {
                       </li> */}
                       <li className="flex items-start gap-2">
                         <CheckCircle className="h-5 w-5 text-[#2b3842] mt-0.5 flex-shrink-0" />
+                        <span>NTN Registration – Partnership or AOP</span>
+                      </li>
+                      <li className="flex items-start gap-2">
+                        <CheckCircle className="h-5 w-5 text-[#2b3842] mt-0.5 flex-shrink-0" />
+                        <span>NTN Registration – Company</span>
+                      </li>
+                      <li className="flex items-start gap-2">
+                        <CheckCircle className="h-5 w-5 text-[#2b3842] mt-0.5 flex-shrink-0" />
+                        <span>NTN Registration – NPO</span>
+                      </li>
+                      <li className="flex items-start gap-2">
+                        <CheckCircle className="h-5 w-5 text-[#2b3842] mt-0.5 flex-shrink-0" />
+                        <span>Quarterly Withholding Statements Tax Filing</span>
+                      </li>
+                      <li className="flex items-start gap-2">
+                        <CheckCircle className="h-5 w-5 text-[#2b3842] mt-0.5 flex-shrink-0" />
+                        <span>Annual Income Tax Filing- Salaried</span>
+                      </li>
+                      <li className="flex items-start gap-2">
+                        <CheckCircle className="h-5 w-5 text-[#2b3842] mt-0.5 flex-shrink-0" />
+                        <span>Annual Income Tax Filing- Sole Proprietor</span>
+                      </li>
+                      <li className="flex items-start gap-2">
+                        <CheckCircle className="h-5 w-5 text-[#2b3842] mt-0.5 flex-shrink-0" />
                         <span>
-                         NTN Registration – Partnership or AOP
+                          Annual Income Tax Filing- Partnership/PVT Company
                         </span>
                       </li>
                       <li className="flex items-start gap-2">
                         <CheckCircle className="h-5 w-5 text-[#2b3842] mt-0.5 flex-shrink-0" />
                         <span>
-                         NTN Registration – Company
-                        </span>
-                      </li>
-                      <li className="flex items-start gap-2">
-                        <CheckCircle className="h-5 w-5 text-[#2b3842] mt-0.5 flex-shrink-0" />
-                        <span>
-                         NTN Registration – NPO
-                        </span>
-                      </li>
-                      <li className="flex items-start gap-2">
-                        <CheckCircle className="h-5 w-5 text-[#2b3842] mt-0.5 flex-shrink-0" />
-                        <span>
-                        Quarterly Withholding Statements Tax Filing
-                        </span>
-                      </li>
-                      <li className="flex items-start gap-2">
-                        <CheckCircle className="h-5 w-5 text-[#2b3842] mt-0.5 flex-shrink-0" />
-                        <span>
-                        Annual Income Tax Filing- Salaried
-                        </span>
-                      </li>
-                      <li className="flex items-start gap-2">
-                        <CheckCircle className="h-5 w-5 text-[#2b3842] mt-0.5 flex-shrink-0" />
-                        <span>
-                        Annual Income Tax Filing- Sole Proprietor
-                        </span>
-                      </li>
-                      <li className="flex items-start gap-2">
-                        <CheckCircle className="h-5 w-5 text-[#2b3842] mt-0.5 flex-shrink-0" />
-                        <span>
-                        Annual Income Tax Filing- Partnership/PVT Company
-                        </span>
-                      </li>
-                      <li className="flex items-start gap-2">
-                        <CheckCircle className="h-5 w-5 text-[#2b3842] mt-0.5 flex-shrink-0" />
-                        <span>
-                        Annual Income Tax Filing- NPO/Charitable Trusts
+                          Annual Income Tax Filing- NPO/Charitable Trusts
                         </span>
                       </li>
                     </ul>
@@ -631,40 +625,66 @@ export default function LandingPage() {
                   </div>
                   <div className="flex flex-col justify-center space-y-4">
                     <h3 className="text-2xl font-bold text-[#2b3842]">
-                      Business Tax Services
+                      Sales Tax
                     </h3>
                     <p className="text-[#58686f]">
-                      Our business tax services are tailored to help companies
-                      navigate the complexities of corporate taxation in
-                      Pakistan
+                      Our sales tax services are designed to help businesses
+                      comply with federal and provincial tax regulations while
+                      avoiding penalties and ensuring smooth operations.
                     </p>
                     <ul className="space-y-2">
                       <li className="flex items-start gap-2">
                         <CheckCircle className="h-5 w-5 text-[#2b3842] mt-0.5 flex-shrink-0" />
                         <span>
-                          Corporate Tax Filing and Compliance: Preparation and
-                          submission of corporate tax returns in accordance with
-                          FBR regulations
+                          Sales Tax Registration – Sole Proprietorship
+                        </span>
+                      </li>
+                      <li className="flex items-start gap-2">
+                        <CheckCircle className="h-5 w-5 text-[#2b3842] mt-0.5 flex-shrink-0" />
+                        <span>Sales Tax Registration – Partnership (AOP)</span>
+                      </li>
+                      <li className="flex items-start gap-2">
+                        <CheckCircle className="h-5 w-5 text-[#2b3842] mt-0.5 flex-shrink-0" />
+                        <span>
+                          Sales Tax Registration – Private Limited Company
                         </span>
                       </li>
                       <li className="flex items-start gap-2">
                         <CheckCircle className="h-5 w-5 text-[#2b3842] mt-0.5 flex-shrink-0" />
                         <span>
-                          Tax Planning and Strategy Development: Creating
-                          effective tax strategies to optimize business
-                          operations and minimize liabilities.
+                          Sales Tax Return Filing – Monthly & Quarterly
+                          Submissions
                         </span>
                       </li>
                       <li className="flex items-start gap-2">
                         <CheckCircle className="h-5 w-5 text-[#2b3842] mt-0.5 flex-shrink-0" />
-                        <span>Tax credits and incentives identification</span>
+                        <span>Sales Tax Registration – Partnership (AOP)</span>
+                      </li>
+                      <li className="flex items-start gap-2">
+                        <CheckCircle className="h-5 w-5 text-[#2b3842] mt-0.5 flex-shrink-0" />
+                        <span>Provincial Sales Tax Compliance (SRB)</span>
+                      </li>
+                      <li className="flex items-start gap-2">
+                        <CheckCircle className="h-5 w-5 text-[#2b3842] mt-0.5 flex-shrink-0" />
+                        <span>Maintenance of Sales Tax Invoices & Records</span>
+                      </li>
+                      <li className="flex items-start gap-2">
+                        <CheckCircle className="h-5 w-5 text-[#2b3842] mt-0.5 flex-shrink-0" />
+                        <span>Filing of Annexures and Sales Summaries</span>
+                      </li>
+                      <li className="flex items-start gap-2">
+                        <CheckCircle className="h-5 w-5 text-[#2b3842] mt-0.5 flex-shrink-0" />
+                        <span>Advisory on Input/Output Tax Adjustments</span>
                       </li>
                       <li className="flex items-start gap-2">
                         <CheckCircle className="h-5 w-5 text-[#2b3842] mt-0.5 flex-shrink-0" />
                         <span>
-                          Audit Support and Representation: Assistance during
-                          tax audits and representation before tax authorities.
+                          Compliance with FBR & Provincial Authorities
                         </span>
+                      </li>
+                      <li className="flex items-start gap-2">
+                        <CheckCircle className="h-5 w-5 text-[#2b3842] mt-0.5 flex-shrink-0" />
+                        <span>Support During Sales Tax Audits & Notices</span>
                       </li>
                     </ul>
                     {/* <Button className="bg-[#2b3842] hover:bg-[#404f58] text-white w-fit">Learn More</Button> */}
@@ -691,38 +711,62 @@ export default function LandingPage() {
                       International Tax Services
                     </h3>
                     <p className="text-[#58686f]">
-                      For businesses and individuals with cross-border
-                      interests, we offer comprehensive international tax
-                      services.
+                      Our company registration services are designed to guide
+                      you through the process of setting up a business in
+                      Pakistan, ensuring compliance with the Securities and
+                      Exchange Commission of Pakistan (SECP) regulations, and
+                      helping you establish a solid legal foundation.
                     </p>
                     <ul className="space-y-2">
                       <li className="flex items-start gap-2">
                         <CheckCircle className="h-5 w-5 text-[#2b3842] mt-0.5 flex-shrink-0" />
-                        <span>
-                          Transfer Pricing Advisory: Guidance on setting and
-                          documenting transfer prices for intercompany
-                          transactions.
-                        </span>
+                        <span>Registration of Sole Proprietorship</span>
+                      </li>
+                      <li className="flex items-start gap-2">
+                        <CheckCircle className="h-5 w-5 text-[#2b3842] mt-0.5 flex-shrink-0" />
+                        <span>Registration of Partnership (AOP)</span>
                       </li>
                       <li className="flex items-start gap-2">
                         <CheckCircle className="h-5 w-5 text-[#2b3842] mt-0.5 flex-shrink-0" />
                         <span>
-                          Double Taxation Agreement (DTA) Consultation:
-                          Assistance in understanding and applying provisions of
-                          DTAs to avoid double taxation.
+                          Registration of Private Limited Company (Pvt Ltd)
                         </span>
+                      </li>
+                      <li className="flex items-start gap-2">
+                        <CheckCircle className="h-5 w-5 text-[#2b3842] mt-0.5 flex-shrink-0" />
+                        <span>Registration of Public Limited Company</span>
+                      </li>
+                      <li className="flex items-start gap-2">
+                        <CheckCircle className="h-5 w-5 text-[#2b3842] mt-0.5 flex-shrink-0" />
+                        <span>Company Name Reservation with SECP</span>
                       </li>
                       <li className="flex items-start gap-2">
                         <CheckCircle className="h-5 w-5 text-[#2b3842] mt-0.5 flex-shrink-0" />
                         <span>
-                          Cross-Border Tax Planning: Developing strategies to
-                          manage tax implications of international operations
-                          and investments.
+                          Preparation of Memorandum & Articles of Association
                         </span>
                       </li>
                       <li className="flex items-start gap-2">
                         <CheckCircle className="h-5 w-5 text-[#2b3842] mt-0.5 flex-shrink-0" />
-                        <span>Expatriate tax services</span>
+                        <span>Filing with SECP for Incorporation</span>
+                      </li>
+                      <li className="flex items-start gap-2">
+                        <CheckCircle className="h-5 w-5 text-[#2b3842] mt-0.5 flex-shrink-0" />
+                        <span>Obtaining Certificate of Incorporation</span>
+                      </li>
+                      <li className="flex items-start gap-2">
+                        <CheckCircle className="h-5 w-5 text-[#2b3842] mt-0.5 flex-shrink-0" />
+                        <span>NTN Registration for New Company</span>
+                      </li>
+                      <li className="flex items-start gap-2">
+                        <CheckCircle className="h-5 w-5 text-[#2b3842] mt-0.5 flex-shrink-0" />
+                        <span>
+                          Preparation of Company’s Annual Filing Documents
+                        </span>
+                      </li>
+                      <li className="flex items-start gap-2">
+                        <CheckCircle className="h-5 w-5 text-[#2b3842] mt-0.5 flex-shrink-0" />
+                        <span>Corporate Governance Advisory</span>
                       </li>
                     </ul>
                     {/* <Button className="bg-[#2b3842] hover:bg-[#404f58] text-white w-fit">Learn More</Button> */}
@@ -746,41 +790,99 @@ export default function LandingPage() {
                   </div>
                   <div className="flex flex-col justify-center space-y-4">
                     <h3 className="text-2xl font-bold text-[#2b3842]">
-                      Tax Planning Services
+                      Intellectual Property
                     </h3>
                     <p className="text-[#58686f]">
-                      Our tax planning services are designed to help individuals
-                      and businesses proactively manage their tax liabilities
+                      We help protect your trademarks, inventions, and creative works—ensuring legal rights in Pakistan and worldwide.
                     </p>
                     <ul className="space-y-2">
                       <li className="flex items-start gap-2">
                         <CheckCircle className="h-5 w-5 text-[#2b3842] mt-0.5 flex-shrink-0" />
-                        <span>
-                          Our tax planning services are designed to help
-                          individuals and businesses proactively manage their
-                          tax liabilities
-                        </span>
+                        <p className="font-semibold">
+                          Trademark Registration{" "}
+                          <span className="font-normal">
+                            – Protection for logos, names, and brand identities
+                          </span>
+                        </p>
                       </li>
                       <li className="flex items-start gap-2">
                         <CheckCircle className="h-5 w-5 text-[#2b3842] mt-0.5 flex-shrink-0" />
-                        <span>
-                          Capital Gains Tax Planning: Advising on the timing and
-                          structuring of asset sales to minimize capital gains
-                          taxes
-                        </span>
+                        <p className="font-semibold">
+                          Patent Registration{" "}
+                          <span className="font-normal">
+                            – Safeguarding inventions and technological
+                            advancements
+                          </span>
+                        </p>
                       </li>
                       <li className="flex items-start gap-2">
                         <CheckCircle className="h-5 w-5 text-[#2b3842] mt-0.5 flex-shrink-0" />
-                        <span>
-                          Retirement and Estate Planning: Planning for
-                          tax-efficient retirement and estate transitions.
-                        </span>
+                        <p className="font-semibold">
+                          Copyright Registration{" "}
+                          <span className="font-normal">
+                            – Protection for literary, artistic, and musical
+                            works
+                          </span>
+                        </p>
                       </li>
                       <li className="flex items-start gap-2">
                         <CheckCircle className="h-5 w-5 text-[#2b3842] mt-0.5 flex-shrink-0" />
-                        <span>Retirement and succession planning</span>
+                        <p className="font-semibold">
+                          Design Patent Registration{" "}
+                          <span className="font-normal">
+                            – Protection for industrial designs and aesthetics
+                          </span>
+                        </p>
+                      </li>
+                      <li className="flex items-start gap-2">
+                        <CheckCircle className="h-5 w-5 text-[#2b3842] mt-0.5 flex-shrink-0" />
+                        <p className="font-semibold">
+                          IP Portfolio Management{" "}
+                          <span className="font-normal">
+                            – Managing and renewing your intellectual property
+                            rights
+                          </span>
+                        </p>
+                      </li>
+                      <li className="flex items-start gap-2">
+                        <CheckCircle className="h-5 w-5 text-[#2b3842] mt-0.5 flex-shrink-0" />
+                        <p className="font-semibold">
+                          Trademark Search & Monitoring{" "}
+                          <span className="font-normal">
+                            – To avoid infringement and ensure brand protection
+                          </span>
+                        </p>
+                      </li>
+                      <li className="flex items-start gap-2">
+                        <CheckCircle className="h-5 w-5 text-[#2b3842] mt-0.5 flex-shrink-0" />
+                        <p className="font-semibold">
+                          Legal Advisory{" "}
+                          <span className="font-normal">
+                            – Guidance on IP laws and best practices
+                          </span>
+                        </p>
+                      </li>
+                      <li className="flex items-start gap-2">
+                        <CheckCircle className="h-5 w-5 text-[#2b3842] mt-0.5 flex-shrink-0" />
+                        <p className="font-semibold">
+                          Litigation Support{" "}
+                          <span className="font-normal">
+                            – Assistance with disputes over intellectual
+                            property rights
+                          </span>
+                        </p>
+                      </li>
+                      <li className="flex items-start gap-2">
+                        <CheckCircle className="h-5 w-5 text-[#2b3842] mt-0.5 flex-shrink-0" />
+                        <p className="font-semibold">
+                          International IP Registration{" "}
+                          <span className="font-normal">
+                            – Helping you secure your IP rights globally
+                          </span>
+                        </p>
                       </li>
                     </ul>
+
                     {/* <Button className="bg-[#2b3842] hover:bg-[#404f58] text-white w-fit">Learn More</Button> */}
                   </div>
                 </div>
@@ -802,50 +904,67 @@ export default function LandingPage() {
                   </div>
                   <div className="flex flex-col justify-center space-y-4">
                     <h3 className="text-2xl font-bold text-[#2b3842]">
-                      Tax Compliance Services
+                      USA LLC & Tax Filing
                     </h3>
                     <p className="text-[#58686f]">
-                      Ensure your business remains fully compliant with
-                      ever-changing tax regulations across jurisdictions. Our
-                      comprehensive compliance services reduce the risk of
-                      penalties, support accurate reporting, and keep you
-                      audit-ready.
+                      We help Pakistani entrepreneurs, freelancers, and
+                      e-commerce businesses set up and manage a U.S.-based LLC —
+                      giving you global access, credibility, and seamless tax
+                      compliance.
                     </p>
                     <ul className="space-y-2">
                       <li className="flex items-start gap-2">
                         <CheckCircle className="h-5 w-5 text-[#2b3842] mt-0.5 flex-shrink-0" />
-                        <span>
-                          Tax return preparation and filing Timely and accurate
-                          preparation of federal, state, and local tax returns
-                          for businesses and individuals
-                        </span>
+                        <p className="font-semibold">
+                          USA LLC Formation{" "}
+                          <span className="font-normal">
+                            – Register your LLC in any U.S. state (commonly
+                            Wyoming, Delaware, Texas and Florida)
+                          </span>
+                        </p>
                       </li>
                       <li className="flex items-start gap-2">
                         <CheckCircle className="h-5 w-5 text-[#2b3842] mt-0.5 flex-shrink-0" />
-                        <span>
-                          Sales tax compliance Ongoing support to ensure
-                          accurate payroll tax calculations, filings, and
-                          payments to tax authorities.
-                        </span>
+                        <p className="font-semibold">
+                          EIN (Employer Identification Number){" "}
+                          <span className="font-normal">
+                            – Required for opening U.S. business bank accounts
+                            and tax filing
+                          </span>
+                        </p>
                       </li>
                       <li className="flex items-start gap-2">
                         <CheckCircle className="h-5 w-5 text-[#2b3842] mt-0.5 flex-shrink-0" />
-                        <span>
-                          Payroll tax compliance Ongoing support to ensure
-                          accurate payroll tax calculations, filings, and
-                          payments to tax authorities.
-                        </span>
+                        <p className="font-semibold">
+                          U.S. Tax Filing (Form 5472 / 1120){" "}
+                          <span className="font-normal">
+                            – Mandatory IRS tax compliance for foreign-owned
+                            single-member LLCs
+                          </span>
+                        </p>
                       </li>
                       <li className="flex items-start gap-2">
                         <CheckCircle className="h-5 w-5 text-[#2b3842] mt-0.5 flex-shrink-0" />
-                        <span>
-                          Regulatory reporting requirements Assistance with
-                          statutory reporting requirements, including
-                          information returns, foreign disclosures, and
-                          industry-specific compliance obligation
-                        </span>
+                        <p className="font-semibold">
+                          Annual Report Filing & Renewals{" "}
+                          <span className="font-normal">
+                            – Ongoing support to maintain active legal status of
+                            your LLC
+                          </span>
+                        </p>
+                      </li>
+                      <li className="flex items-start gap-2">
+                        <CheckCircle className="h-5 w-5 text-[#2b3842] mt-0.5 flex-shrink-0" />
+                        <p className="font-semibold">
+                          Consultation on U.S. Business Compliance{" "}
+                          <span className="font-normal">
+                            – Guidance on sales tax, state filings, and banking
+                            requirements
+                          </span>
+                        </p>
                       </li>
                     </ul>
+
                     {/* <Button className="bg-[#2b3842] hover:bg-[#404f58] text-white w-fit">Learn More</Button> */}
                   </div>
                 </div>
@@ -870,46 +989,72 @@ export default function LandingPage() {
                       Tax Advisory Services
                     </h3>
                     <p className="text-[#58686f]">
-                      Receive expert, strategic guidance on complex tax matters
-                      to help you make confident, informed financial decisions.
-                      Our tax advisory services are designed to proactively
-                      identify risks, resolve disputes, and support long-term
-                      tax efficiency
+                      We help Pakistani entrepreneurs, freelancers, and
+                      e-commerce businesses set up and manage a UK-based Private
+                      Limited Company — giving you international credibility,
+                      access to the UK market, and full legal compliance.
                     </p>
                     <ul className="space-y-2">
                       <li className="flex items-start gap-2">
                         <CheckCircle className="h-5 w-5 text-[#2b3842] mt-0.5 flex-shrink-0" />
-                        <span>
-                          Tax controversy resolution Representation and support
-                          in resolving disputes with tax authorities, including
-                          negotiation and settlement strategies.
-                        </span>
+                        <p className="font-semibold">
+                          UK Private Limited Company Formation{" "}
+                          <span className="font-normal">
+                            – Register a Limited Company with Companies House
+                            (LTD)
+                          </span>
+                        </p>
                       </li>
                       <li className="flex items-start gap-2">
                         <CheckCircle className="h-5 w-5 text-[#2b3842] mt-0.5 flex-shrink-0" />
-                        <span>
-                          IRS audit representation End-to-end representation
-                          during IRS audits, including document preparation,
-                          issue resolution, and communication with tax agents.
-                        </span>
+                        <p className="font-semibold">
+                          Company Name Reservation{" "}
+                          <span className="font-normal">
+                            – Secure your business name with UK company
+                            registrar
+                          </span>
+                        </p>
                       </li>
                       <li className="flex items-start gap-2">
                         <CheckCircle className="h-5 w-5 text-[#2b3842] mt-0.5 flex-shrink-0" />
-                        <span>
-                          Tax opinion letters Formal written guidance on complex
-                          tax positions to support compliance and mitigate risk
-                          in transactions.
-                        </span>
+                        <p className="font-semibold">
+                          Director & Shareholder Setup{" "}
+                          <span className="font-normal">
+                            – Guidance for appointing directors and defining
+                            share structures
+                          </span>
+                        </p>
                       </li>
                       <li className="flex items-start gap-2">
                         <CheckCircle className="h-5 w-5 text-[#2b3842] mt-0.5 flex-shrink-0" />
-                        <span>
-                          Strategic tax consulting Customized advice on
-                          tax-efficient structures, transactions, and planning
-                          opportunities aligned with your business goals.
-                        </span>
+                        <p className="font-semibold">
+                          UTR & Corporation Tax Registration{" "}
+                          <span className="font-normal">
+                            – Set up for UK tax compliance with HMRC
+                          </span>
+                        </p>
+                      </li>
+                      <li className="flex items-start gap-2">
+                        <CheckCircle className="h-5 w-5 text-[#2b3842] mt-0.5 flex-shrink-0" />
+                        <p className="font-semibold">
+                          Annual Accounts & Confirmation Statement Filing{" "}
+                          <span className="font-normal">
+                            – Ensure timely submissions to Companies House and
+                            HMRC
+                          </span>
+                        </p>
+                      </li>
+                      <li className="flex items-start gap-2">
+                        <CheckCircle className="h-5 w-5 text-[#2b3842] mt-0.5 flex-shrink-0" />
+                        <p className="font-semibold">
+                          Ongoing UK Compliance Support{" "}
+                          <span className="font-normal">
+                            – Keep your LTD active, compliant, and penalty-free
+                          </span>
+                        </p>
                       </li>
                     </ul>
+
                     {/* <Button className="bg-[#2b3842] hover:bg-[#404f58] text-white w-fit">Learn More</Button> */}
                   </div>
                 </div>
@@ -1109,12 +1254,19 @@ export default function LandingPage() {
                   <p className="max-w-[600px] text-[#58686f] md:text-xl">
                     Whether you're a business owner, a freelancer, or just
                     someone trying to make sense of your finances, we're here to
-                    help.   
+                    help.
                     {/* At File Bridge Global, we make tax planning simple,
                     practical, and tailored to your situation. */}
                   </p>
-                  <p className="mt-3 mb-3 md:text-xl text-[#58686f]"><span className="font-semibold">Ready to take the first step?</span><br/>
-                  Schedule your free consultation today — no pressure, no commitments. Just expert advice to help you understand your options and make smarter tax decisions.</p>
+                  <p className="mt-3 mb-3 md:text-xl text-[#58686f]">
+                    <span className="font-semibold">
+                      Ready to take the first step?
+                    </span>
+                    <br />
+                    Schedule your free consultation today — no pressure, no
+                    commitments. Just expert advice to help you understand your
+                    options and make smarter tax decisions.
+                  </p>
                 </div>
                 <div className="flex flex-col gap-4">
                   <div className="flex items-center gap-2">
@@ -1143,7 +1295,10 @@ export default function LandingPage() {
                           Initial Consultation
                         </p>
                         <p className="text-sm text-[#58686f] w-10/12">
-                        We’ll start with a friendly, 30-minute call to understand your needs, your challenges, and what you’re hoping to achieve — no complicated forms or jargon.
+                          We’ll start with a friendly, 30-minute call to
+                          understand your needs, your challenges, and what
+                          you’re hoping to achieve — no complicated forms or
+                          jargon.
                         </p>
                       </div>
                     </li>
@@ -1156,7 +1311,10 @@ export default function LandingPage() {
                           Custom Strategy
                         </p>
                         <p className="text-sm text-[#58686f] w-10/12">
-                        Based on your goals and financial situation, we’ll create a personalized tax plan that makes sense for you — whether it’s for your business, income, or cross-border concerns.
+                          Based on your goals and financial situation, we’ll
+                          create a personalized tax plan that makes sense for
+                          you — whether it’s for your business, income, or
+                          cross-border concerns.
                         </p>
                       </div>
                     </li>
@@ -1169,7 +1327,10 @@ export default function LandingPage() {
                           Implementation
                         </p>
                         <p className="text-sm text-[#58686f] w-10/12">
-                        Once you’re happy with the plan, our team takes care of everything — from filings and registrations to handling compliance. You’ll always know what’s happening, and why
+                          Once you’re happy with the plan, our team takes care
+                          of everything — from filings and registrations to
+                          handling compliance. You’ll always know what’s
+                          happening, and why
                         </p>
                       </div>
                     </li>
@@ -1326,7 +1487,8 @@ export default function LandingPage() {
                   Ready to take control of your tax situation?
                 </h2>
                 <p className="mx-auto max-w-[700px] text-[#dce8e6]">
-                  We’re here to make tax planning clear, practical, and stress-free — with expert guidance every step of the way.
+                  We’re here to make tax planning clear, practical, and
+                  stress-free — with expert guidance every step of the way.
                 </p>
               </div>
               <Button className="bg-white text-[#2b3842] hover:bg-[#dce8e6] shadow-lg hover:shadow-xl transition-all duration-300">
@@ -1353,8 +1515,9 @@ export default function LandingPage() {
                 <span className="text-xl font-bold">File Bridge Global</span>
               </div>
               <p className="mt-2 text-[#dce8e6]/80">
-              Expert tax solutions tailored for individuals, startups, and enterprises. We simplify complex tax issues so you can focus on what matters most.
-
+                Expert tax solutions tailored for individuals, startups, and
+                enterprises. We simplify complex tax issues so you can focus on
+                what matters most.
               </p>
               <div className="mt-4 flex gap-4">
                 <Link
