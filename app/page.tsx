@@ -48,10 +48,10 @@ export default function LandingPage() {
   const [currentTestimonial, setCurrentTestimonial] = useState(0);
   const [isLoaded, setIsLoaded] = useState(false);
   const [animatedStats, setAnimatedStats] = useState({
-    clients: 0,
-    savings: 0,
-    experience: 0,
-    satisfaction: 0,
+    clients: 0,            // Realistic client count
+    taxReturnsFiled: 0,    // Number of tax returns filed
+    industriesServed: 0,     // Number of industries served
+    satisfaction: 0,        // Client satisfaction percentage
   });
 
   // Animation for stats when in view
@@ -66,12 +66,11 @@ export default function LandingPage() {
           // Animate stats
           const interval = setInterval(() => {
             setAnimatedStats((prev) => ({
-              clients: prev.clients >= 1200 ? 1200 : prev.clients + 24,
-              savings: prev.savings >= 25 ? 25 : prev.savings + 0.5,
-              experience: prev.experience >= 15 ? 15 : prev.experience + 0.3,
-              satisfaction:
-                prev.satisfaction >= 98 ? 98 : prev.satisfaction + 1.96,
-            }));
+              clients: prev.clients >= 120 ? 120 : prev.clients + 24,   // Increment clients or cap at 1200
+              taxReturnsFiled: prev.taxReturnsFiled >= 500 ? 500 : prev.taxReturnsFiled + 25, // Increment tax returns filed or cap at 500
+              industriesServed: prev.industriesServed >= 10 ? 10 : prev.industriesServed + 1, // Increment industries served or cap at 15
+              satisfaction: prev.satisfaction >= 98 ? 98 : prev.satisfaction + 1.96, // Increment satisfaction or cap at 98%
+            }));      
           }, 30);
 
           return () => clearInterval(interval);
@@ -368,14 +367,14 @@ export default function LandingPage() {
                   format: (val: number) => `${Math.floor(val)}+`,
                 },
                 {
-                  value: animatedStats.savings,
-                  label: "Million in Tax Savings",
-                  format: (val: number) => `$${val.toFixed(1)}M+`,
+                  value: animatedStats.taxReturnsFiled,
+                  label: "Tax Returns Filed",
+                  format: (val: number) => `${Math.floor(val)}+`,
                 },
                 {
-                  value: animatedStats.experience,
-                  label: "Years Experience",
-                  format: (val: number) => `${val.toFixed(0)}+`,
+                  value: animatedStats.industriesServed,
+                  label: "Industries Served",
+                  format: (val: number) => `${Math.floor(val)}+`,
                 },
                 {
                   value: animatedStats.satisfaction,
@@ -623,7 +622,7 @@ export default function LandingPage() {
                       className="w-full h-auto object-cover"
                     />
                   </div>
-                  <div className="flex flex-col justify-center space-y-4">
+                  <div className="flex flex-col justify-start space-y-4">
                     <h3 className="text-2xl font-bold text-[#2b3842]">
                       Sales Tax
                     </h3>
@@ -706,7 +705,7 @@ export default function LandingPage() {
                       className="w-full h-auto object-cover"
                     />
                   </div>
-                  <div className="flex flex-col justify-center space-y-4">
+                  <div className="flex flex-col justify-start space-y-4">
                     <h3 className="text-2xl font-bold text-[#2b3842]">
                       International Tax Services
                     </h3>
@@ -788,12 +787,13 @@ export default function LandingPage() {
                       className="w-full h-auto object-cover"
                     />
                   </div>
-                  <div className="flex flex-col justify-center space-y-4">
+                  <div className="flex flex-col justify-start space-y-4">
                     <h3 className="text-2xl font-bold text-[#2b3842]">
                       Intellectual Property
                     </h3>
                     <p className="text-[#58686f]">
-                      We help protect your trademarks, inventions, and creative works—ensuring legal rights in Pakistan and worldwide.
+                      We help protect your trademarks, inventions, and creative
+                      works—ensuring legal rights in Pakistan and worldwide.
                     </p>
                     <ul className="space-y-2">
                       <li className="flex items-start gap-2">
@@ -902,7 +902,7 @@ export default function LandingPage() {
                       className="w-full h-auto object-cover"
                     />
                   </div>
-                  <div className="flex flex-col justify-center space-y-4">
+                  <div className="flex flex-col justify-start space-y-4">
                     <h3 className="text-2xl font-bold text-[#2b3842]">
                       USA LLC & Tax Filing
                     </h3>
@@ -986,7 +986,7 @@ export default function LandingPage() {
                   </div>
                   <div className="flex flex-col justify-center space-y-4">
                     <h3 className="text-2xl font-bold text-[#2b3842]">
-                      Tax Advisory Services
+                      UK PVT LTD
                     </h3>
                     <p className="text-[#58686f]">
                       We help Pakistani entrepreneurs, freelancers, and
@@ -1561,7 +1561,7 @@ export default function LandingPage() {
                 </li>
                 <li className="flex items-center gap-2">
                   <Phone className="h-4 w-4 text-[#dce8e6]/80" />
-                  <span className="text-[#dce8e6]/80">(123) 456-7890</span>
+                  <span className="text-[#dce8e6]/80">92 313 760 5933</span>
                 </li>
               </ul>
               {/* <p className="mt-4 text-[#dce8e6]/80">
