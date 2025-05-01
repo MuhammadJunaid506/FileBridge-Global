@@ -615,11 +615,11 @@ export default function LandingPage() {
                 <div className="grid md:grid-cols-2 gap-6">
                   <div className="rounded-lg overflow-hidden">
                     <Image
-                      src="/images/business.webp"
+                      src="/images/saletax.png"
                       alt="Business Tax Services"
                       width={600}
                       height={400}
-                      className="w-full h-auto object-cover"
+                      className="w-full object-cover"
                     />
                   </div>
                   <div className="flex flex-col justify-start space-y-4">
@@ -698,16 +698,16 @@ export default function LandingPage() {
                 <div className="grid md:grid-cols-2 gap-6">
                   <div className="rounded-lg overflow-hidden">
                     <Image
-                      src="/images/international.webp"
+                      src="/images/companyregister.png"
                       alt="International Tax Services"
                       width={600}
                       height={400}
-                      className="w-full h-auto object-cover"
+                      className="w-full object-cover"
                     />
                   </div>
                   <div className="flex flex-col justify-start space-y-4">
                     <h3 className="text-2xl font-bold text-[#2b3842]">
-                      International Tax Services
+                      Company Registration
                     </h3>
                     <p className="text-[#58686f]">
                       Our company registration services are designed to guide
@@ -780,7 +780,7 @@ export default function LandingPage() {
                 <div className="grid md:grid-cols-2 gap-6">
                   <div className="rounded-lg overflow-hidden">
                     <Image
-                      src="/images/planning.webp"
+                      src="/images/intellectual.png"
                       alt="Tax Planning Services"
                       width={600}
                       height={400}
@@ -895,7 +895,7 @@ export default function LandingPage() {
                 <div className="grid md:grid-cols-2 gap-6">
                   <div className="rounded-lg overflow-hidden">
                     <Image
-                      src="/images/compliance.webp"
+                      src="/images/USA.png"
                       alt="Tax Compliance Services"
                       width={600}
                       height={400}
@@ -977,7 +977,7 @@ export default function LandingPage() {
                 <div className="grid md:grid-cols-2 gap-6">
                   <div className="rounded-lg overflow-hidden">
                     <Image
-                      src="/images/taxadvisor.webp"
+                      src="/images/UK.png"
                       alt="Tax Advisory Services"
                       width={600}
                       height={400}
@@ -985,7 +985,7 @@ export default function LandingPage() {
                     />
                   </div>
                   <div className="flex flex-col justify-center space-y-4">
-                    <h3 className="text-2xl font-bold text-[#2b3842]">
+                    <h3 className="text-2xl font-bold text-[#2b3842] bg-center">
                       UK PVT LTD
                     </h3>
                     <p className="text-[#58686f]">
