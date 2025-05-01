@@ -1249,24 +1249,19 @@ export default function LandingPage() {
                     Book Your Consultation
                   </Badge>
                   <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-[#2b3842]">
-                    Let’s Simplify Your Taxes — Together
+                  Reliable Tax Filing and Business Registration
                   </h2>
                   <p className="max-w-[600px] text-[#58686f] md:text-xl">
-                    Whether you're a business owner, a freelancer, or just
-                    someone trying to make sense of your finances, we're here to
-                    help.
+                  We help individuals and businesses with tax filing, FBR compliance, company registration, U.S. LLCs, UK Ltd setups, and IP protection — so you can stay focused on growth.
                     {/* At File Bridge Global, we make tax planning simple,
                     practical, and tailored to your situation. */}
                   </p>
-                  <p className="mt-3 mb-3 md:text-xl text-[#58686f]">
-                    <span className="font-semibold">
-                      Ready to take the first step?
-                    </span>
-                    <br />
-                    Schedule your free consultation today — no pressure, no
-                    commitments. Just expert advice to help you understand your
-                    options and make smarter tax decisions.
-                  </p>
+                  <p className="mt-3 mb-3 md:text-xl text-[#58686f] font-semibold">
+                  Book your free consultation{" "}
+                          <span className="font-normal">
+                          — no pressure, just expert guidance.
+                          </span>
+                        </p>
                 </div>
                 <div className="flex flex-col gap-4">
                   <div className="flex items-center gap-2">
@@ -1277,7 +1272,7 @@ export default function LandingPage() {
                   </div>
                   <div className="flex items-center gap-2">
                     <Phone className="h-5 w-5 text-[#2b3842]" />
-                    <span className="text-[#404f58]">(123) 456-7890</span>
+                    <span className="text-[#404f58]">92 313 760 5933</span>
                   </div>
                 </div>
 
@@ -1295,7 +1290,7 @@ export default function LandingPage() {
                           Initial Consultation
                         </p>
                         <p className="text-sm text-[#58686f] w-10/12">
-                          We’ll start with a friendly, 30-minute call to
+                          A quick, 30-minute call to
                           understand your needs, your challenges, and what
                           you’re hoping to achieve — no complicated forms or
                           jargon.
