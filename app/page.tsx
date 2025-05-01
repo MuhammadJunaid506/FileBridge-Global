@@ -551,16 +551,16 @@ export default function LandingPage() {
                           credits */}
                         </span>
                       </li>
-                      <li className="flex items-start gap-2">
+                      {/* <li className="flex items-start gap-2">
                         <CheckCircle className="h-5 w-5 text-[#2b3842] mt-0.5 flex-shrink-0" />
                         <span>
-                          {/* <p className="font-semibold">
+                          <p className="font-semibold">
                             Retirement and estate tax planning:{" "}
                           </p>
                           Guidance on structuring retirement plans and estate
-                          transfers to minimize tax implications */}
+                          transfers to minimize tax implications
                         </span>
-                      </li>
+                      </li> */}
                       <li className="flex items-start gap-2">
                         <CheckCircle className="h-5 w-5 text-[#2b3842] mt-0.5 flex-shrink-0" />
                         <span>
