@@ -495,12 +495,12 @@ export default function LandingPage() {
               className="w-full max-w-5xl mx-auto mt-8"
             >
               <TabsList className="grid w-full grid-cols-2 md:grid-cols-3 lg:grid-cols-6 mb-8">
-                <TabsTrigger value="individual">Individual</TabsTrigger>
-                <TabsTrigger value="business">Business</TabsTrigger>
-                <TabsTrigger value="international">International</TabsTrigger>
-                <TabsTrigger value="planning">Planning</TabsTrigger>
-                <TabsTrigger value="compliance">Compliance</TabsTrigger>
-                <TabsTrigger value="advisory">Advisory</TabsTrigger>
+                <TabsTrigger value="individual">Income Tax</TabsTrigger>
+                <TabsTrigger value="business">Sale Tax</TabsTrigger>
+                <TabsTrigger value="international">Company Reistration</TabsTrigger>
+                <TabsTrigger value="planning">Intellectual Property</TabsTrigger>
+                <TabsTrigger value="compliance">USA LLC & Tax Filling</TabsTrigger>
+                <TabsTrigger value="advisory">UK PVT LTD</TabsTrigger>
               </TabsList>
 
               <TabsContent
@@ -530,43 +530,83 @@ export default function LandingPage() {
                       <li className="flex items-start gap-2">
                         <CheckCircle className="h-5 w-5 text-[#2b3842] mt-0.5 flex-shrink-0" />
                         <span>
+                           NTN Registration – Salaried
                           {" "}
-                          <p className="font-semibold">
+                          {/* <p className="font-semibold">
                             Personal income tax preparation and filing:{" "}
                           </p>
                           Accurate and timely filing of individual income tax
-                          returns with the Federal Board of Revenue (FBR)
+                          returns with the Federal Board of Revenue (FBR) */}
                         </span>
                       </li>
                       <li className="flex items-start gap-2">
                         <CheckCircle className="h-5 w-5 text-[#2b3842] mt-0.5 flex-shrink-0" />
                         <span>
-                          <p className="font-semibold">
-                            Tax planning and optimization strategies:{" "}
+                          NTN Registration – Business
+                          {/* <p className="font-semibold">
+                            NTN Registration – Business:{" "}
                           </p>
                           Developing personalized strategies to minimize tax
                           liabilities and maximize eligible deductions and
-                          credits
+                          credits */}
                         </span>
                       </li>
                       <li className="flex items-start gap-2">
                         <CheckCircle className="h-5 w-5 text-[#2b3842] mt-0.5 flex-shrink-0" />
                         <span>
-                          <p className="font-semibold">
+                          {/* <p className="font-semibold">
                             Retirement and estate tax planning:{" "}
                           </p>
                           Guidance on structuring retirement plans and estate
-                          transfers to minimize tax implications
+                          transfers to minimize tax implications */}
                         </span>
                       </li>
                       <li className="flex items-start gap-2">
                         <CheckCircle className="h-5 w-5 text-[#2b3842] mt-0.5 flex-shrink-0" />
                         <span>
-                          <p className="font-semibold">
-                            Investment and capital gains tax strategies:
-                          </p>
-                          Advising on tax-efficient investment options and
-                          strategies to manage capital gains taxes.
+                         NTN Registration – Partnership or AOP
+                        </span>
+                      </li>
+                      <li className="flex items-start gap-2">
+                        <CheckCircle className="h-5 w-5 text-[#2b3842] mt-0.5 flex-shrink-0" />
+                        <span>
+                         NTN Registration – Company
+                        </span>
+                      </li>
+                      <li className="flex items-start gap-2">
+                        <CheckCircle className="h-5 w-5 text-[#2b3842] mt-0.5 flex-shrink-0" />
+                        <span>
+                         NTN Registration – NPO
+                        </span>
+                      </li>
+                      <li className="flex items-start gap-2">
+                        <CheckCircle className="h-5 w-5 text-[#2b3842] mt-0.5 flex-shrink-0" />
+                        <span>
+                        Quarterly Withholding Statements Tax Filing
+                        </span>
+                      </li>
+                      <li className="flex items-start gap-2">
+                        <CheckCircle className="h-5 w-5 text-[#2b3842] mt-0.5 flex-shrink-0" />
+                        <span>
+                        Annual Income Tax Filing- Salaried
+                        </span>
+                      </li>
+                      <li className="flex items-start gap-2">
+                        <CheckCircle className="h-5 w-5 text-[#2b3842] mt-0.5 flex-shrink-0" />
+                        <span>
+                        Annual Income Tax Filing- Sole Proprietor
+                        </span>
+                      </li>
+                      <li className="flex items-start gap-2">
+                        <CheckCircle className="h-5 w-5 text-[#2b3842] mt-0.5 flex-shrink-0" />
+                        <span>
+                        Annual Income Tax Filing- Partnership/PVT Company
+                        </span>
+                      </li>
+                      <li className="flex items-start gap-2">
+                        <CheckCircle className="h-5 w-5 text-[#2b3842] mt-0.5 flex-shrink-0" />
+                        <span>
+                        Annual Income Tax Filing- NPO/Charitable Trusts
                         </span>
                       </li>
                     </ul>
