@@ -344,7 +344,7 @@ export default function LandingPage() {
               <div className="flex items-center justify-center animate-in slide-in-from-right duration-700">
                 <div className="relative w-full h-[300px] lg:h-[500px]">
                   <Image
-                    src="/images/taxconsultant.png"
+                    src="/images/banner.jpg"
                     alt="Tax Consultation Services"
                     fill
                     className="drop-shadow-2xl w-full h-auto object-contain"
@@ -513,13 +513,13 @@ export default function LandingPage() {
                 className="animate-in fade-in-50 duration-300"
               >
                 <div className="grid md:grid-cols-2 gap-6">
-                  <div className="rounded-lg overflow-hidden">
+                  <div className="rounded-lg overflow-hidden max-h-[500px]">
                     <Image
                       src="/images/incometax.png"
                       alt="Individual Tax Services"
                       width={600}
                       height={500}
-                      className="w-full max-h-[500px] object-cover bg-[#58686f]"
+                      className="w-full h-full object-contain bg-[#58686f]"
                     />
                   </div>
                   <div className="flex flex-col justify-center space-y-4">
@@ -613,13 +613,13 @@ export default function LandingPage() {
                 className="animate-in fade-in-50 duration-300"
               >
                 <div className="grid md:grid-cols-2 gap-6">
-                  <div className="rounded-lg overflow-hidden">
+                  <div className="rounded-lg overflow-hidden max-h-[500px]">
                     <Image
                       src="/images/saletax.png"
                       alt="Business Tax Services"
                       width={600}
                       height={500}
-                      className="w-full max-h-[500px] object-contain bg-[#58686f]"
+                      className="w-full h-full object-contain bg-[#58686f]"
                     />
                   </div>
                   <div className="flex flex-col justify-start space-y-4">
@@ -696,13 +696,13 @@ export default function LandingPage() {
                 className="animate-in fade-in-50 duration-300"
               >
                 <div className="grid md:grid-cols-2 gap-6">
-                  <div className="rounded-lg overflow-hidden">
+                  <div className="rounded-lg overflow-hidden max-h-[500px]">
                     <Image
                       src="/images/companyregister.png"
                       alt="International Tax Services"
                       width={600}
                       height={500}
-                      className="w-full max-h-[500px] object-contain bg-[#58686f]"
+                      className="w-full h-full object-contain bg-[#58686f]"
                     />
                   </div>
                   <div className="flex flex-col justify-start space-y-4">
@@ -778,13 +778,13 @@ export default function LandingPage() {
                 className="animate-in fade-in-50 duration-300"
               >
                 <div className="grid md:grid-cols-2 gap-6">
-                  <div className="rounded-lg overflow-hidden">
+                  <div className="rounded-lg overflow-hidden max-h-[500px]">
                     <Image
                       src="/images/intellectual.png"
                       alt="Tax Planning Services"
                       width={600}
                       height={500}
-                      className="w-full max-h-[500px] object-contain bg-[#58686f]"
+                      className="w-full h-full object-contain bg-[#58686f]"
                     />
                   </div>
                   <div className="flex flex-col justify-start space-y-4">
@@ -872,7 +872,7 @@ export default function LandingPage() {
                           </span>
                         </p>
                       </li>
-                      <li className="flex items-start gap-2">
+                      {/* <li className="flex items-start gap-2">
                         <CheckCircle className="h-5 w-5 text-[#2b3842] mt-0.5 flex-shrink-0" />
                         <p className="font-semibold">
                           International IP Registration{" "}
@@ -880,7 +880,7 @@ export default function LandingPage() {
                             – Helping you secure your IP rights globally
                           </span>
                         </p>
-                      </li>
+                      </li> */}
                     </ul>
 
                     {/* <Button className="bg-[#2b3842] hover:bg-[#404f58] text-white w-fit">Learn More</Button> */}
@@ -893,13 +893,13 @@ export default function LandingPage() {
                 className="animate-in fade-in-50 duration-300"
               >
                 <div className="grid md:grid-cols-2 gap-6">
-                  <div className="rounded-lg overflow-hidden">
+                  <div className="rounded-lg overflow-hidden max-h-[500px]">
                     <Image
                       src="/images/USA.png"
                       alt="Tax Compliance Services"
                       width={600}
                       height={500}
-                      className="w-full max-h-[500px] object-contain bg-[#58686f]"
+                      className="w-full h-full object-contain bg-[#58686f]"
                     />
                   </div>
                   <div className="flex flex-col justify-start space-y-4">
@@ -975,13 +975,13 @@ export default function LandingPage() {
                 className="animate-in fade-in-50 duration-300"
               >
                 <div className="grid md:grid-cols-2 gap-6">
-                  <div className="rounded-lg overflow-hidden">
+                  <div className="rounded-lg overflow-hidden max-h-[500px]">
                     <Image
                       src="/images/UK.png"
                       alt="Tax Advisory Services"
                       width={600}
                       height={500}
-                      className="w-full max-h-[500px] object-contain bg-[#58686f]"
+                      className="w-full h-full object-contain bg-[#58686f]"
                     />
                   </div>
                   <div className="flex flex-col justify-start space-y-4">
@@ -1515,29 +1515,29 @@ export default function LandingPage() {
                 what matters most.
               </p>
               <div className="mt-4 flex gap-4">
-                <Link
+                {/* <Link
                   href="#"
                   className="text-[#dce8e6]/80 hover:text-white transition-colors"
                 >
                   <Twitter className="h-5 w-5" />
                   <span className="sr-only">Twitter</span>
-                </Link>
+                </Link> */}
                 <Link
-                  href="#"
+                  href="https://www.linkedin.com/company/file-bridge-global/"
                   className="text-[#dce8e6]/80 hover:text-white transition-colors"
                 >
                   <Linkedin className="h-5 w-5" />
                   <span className="sr-only">LinkedIn</span>
                 </Link>
                 <Link
-                  href="#"
+                  href="https://www.facebook.com/profile.php?id=61575265542194"
                   className="text-[#dce8e6]/80 hover:text-white transition-colors"
                 >
                   <Facebook className="h-5 w-5" />
                   <span className="sr-only">Facebook</span>
                 </Link>
                 <Link
-                  href="#"
+                  href="https://www.instagram.com/filebridgeglobal/"
                   className="text-[#dce8e6]/80 hover:text-white transition-colors"
                 >
                   <Instagram className="h-5 w-5" />
