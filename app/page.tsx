@@ -342,12 +342,12 @@ export default function LandingPage() {
                 </div>
               </div>
               <div className="flex items-center justify-center animate-in slide-in-from-right duration-700">
-                <div className="relative w-full h-[300px] md:h-[400px] lg:h-[500px]">
+                <div className="relative w-full h-[300px] lg:h-[500px]">
                   <Image
-                    src="/images/hero.webp"
+                    src="/images/taxconsultant.png"
                     alt="Tax Consultation Services"
                     fill
-                    className="drop-shadow-2xl w-full h-full"
+                    className="drop-shadow-2xl w-full h-auto object-contain"
                     priority
                   />
                 </div>
@@ -515,11 +515,11 @@ export default function LandingPage() {
                 <div className="grid md:grid-cols-2 gap-6">
                   <div className="rounded-lg overflow-hidden">
                     <Image
-                      src="/images/individual.webp"
+                      src="/images/incometax.png"
                       alt="Individual Tax Services"
                       width={600}
-                      height={400}
-                      className="w-full h-auto object-cover"
+                      height={500}
+                      className="w-full max-h-[500px] object-cover bg-[#58686f]"
                     />
                   </div>
                   <div className="flex flex-col justify-center space-y-4">
@@ -618,8 +618,8 @@ export default function LandingPage() {
                       src="/images/saletax.png"
                       alt="Business Tax Services"
                       width={600}
-                      height={400}
-                      className="w-full object-cover"
+                      height={500}
+                      className="w-full max-h-[500px] object-contain bg-[#58686f]"
                     />
                   </div>
                   <div className="flex flex-col justify-start space-y-4">
@@ -701,8 +701,8 @@ export default function LandingPage() {
                       src="/images/companyregister.png"
                       alt="International Tax Services"
                       width={600}
-                      height={400}
-                      className="w-full object-cover"
+                      height={500}
+                      className="w-full max-h-[500px] object-contain bg-[#58686f]"
                     />
                   </div>
                   <div className="flex flex-col justify-start space-y-4">
@@ -783,8 +783,8 @@ export default function LandingPage() {
                       src="/images/intellectual.png"
                       alt="Tax Planning Services"
                       width={600}
-                      height={400}
-                      className="w-full h-auto object-cover"
+                      height={500}
+                      className="w-full max-h-[500px] object-contain bg-[#58686f]"
                     />
                   </div>
                   <div className="flex flex-col justify-start space-y-4">
@@ -898,8 +898,8 @@ export default function LandingPage() {
                       src="/images/USA.png"
                       alt="Tax Compliance Services"
                       width={600}
-                      height={400}
-                      className="w-full h-auto object-cover"
+                      height={500}
+                      className="w-full max-h-[500px] object-contain bg-[#58686f]"
                     />
                   </div>
                   <div className="flex flex-col justify-start space-y-4">
@@ -980,11 +980,11 @@ export default function LandingPage() {
                       src="/images/UK.png"
                       alt="Tax Advisory Services"
                       width={600}
-                      height={400}
-                      className="w-full h-auto object-cover"
+                      height={500}
+                      className="w-full max-h-[500px] object-contain bg-[#58686f]"
                     />
                   </div>
-                  <div className="flex flex-col justify-center space-y-4">
+                  <div className="flex flex-col justify-start space-y-4">
                     <h3 className="text-2xl font-bold text-[#2b3842] bg-center">
                       UK PVT LTD
                     </h3>
@@ -1064,7 +1064,7 @@ export default function LandingPage() {
         </section>
 
         {/* Case Studies Section */}
-        <section
+        {/* <section
           id="case-studies"
           className="w-full py-12 md:py-24 lg:py-32 bg-gradient-to-b from-[#f8fafa] to-white"
         >
@@ -1139,7 +1139,7 @@ export default function LandingPage() {
               ))}
             </div>
           </div>
-        </section>
+        </section> */}
 
         {/* Testimonials Section */}
         <section
