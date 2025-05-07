@@ -1164,7 +1164,7 @@ export default function LandingPage() {
             </div>
 
             <div className="mx-auto max-w-4xl py-12 relative">
-              <div className="relative bg-[#404f58] rounded-lg p-8 md:p-12 shadow-xl h-[300px]">
+              <div className="relative bg-[#404f58] rounded-lg p-8 md:p-12 shadow-xl h-[380px] md:h-[300px]">
                 <div className="absolute -top-6 left-8 text-6xl text-[#dce8e6]/30 font-serif">
                   "
                 </div>
@@ -1225,7 +1225,7 @@ export default function LandingPage() {
                 <Button
                   variant="outline"
                   size="icon"
-                  className="rounded-full border-[#dce8e6]/30 text-[#dce8e6] hover:bg-[#dce8e6]/10 hover:text-white"
+                  className="group rounded-full border-[#dce8e6]/30 text-[#dce8e6] hover:bg-[#dce8e6]/10 hover:text-white"
                   onClick={nextTestimonial}
                 >
                   <ChevronRight className="h-5 w-5 text-[#2b3842] group-hover:text-white transition-colors duration-200" />
@@ -1525,6 +1525,7 @@ export default function LandingPage() {
                 <Link
                   href="https://www.linkedin.com/company/file-bridge-global/"
                   className="text-[#dce8e6]/80 hover:text-white transition-colors"
+                  target="_blank"
                 >
                   <Linkedin className="h-5 w-5" />
                   <span className="sr-only">LinkedIn</span>
@@ -1532,6 +1533,7 @@ export default function LandingPage() {
                 <Link
                   href="https://www.facebook.com/profile.php?id=61575265542194"
                   className="text-[#dce8e6]/80 hover:text-white transition-colors"
+                  target="_blank"
                 >
                   <Facebook className="h-5 w-5" />
                   <span className="sr-only">Facebook</span>
@@ -1539,6 +1541,7 @@ export default function LandingPage() {
                 <Link
                   href="https://www.instagram.com/filebridgeglobal/"
                   className="text-[#dce8e6]/80 hover:text-white transition-colors"
+                  target="_blank"
                 >
                   <Instagram className="h-5 w-5" />
                   <span className="sr-only">Instagram</span>
